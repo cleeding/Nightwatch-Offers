@@ -12,6 +12,7 @@ const myConsole = new console.Console(fs.createWriteStream('./output.txt'));
 
 Given(/^I open Vouchercodes's home page$/, () => {
   browser
+    .windowMaximize()
     .url(homePage)
     .waitForElementPresent('body', 1000)
     .assert.urlContains("vouchercodes");
