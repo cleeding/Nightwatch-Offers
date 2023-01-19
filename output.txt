@@ -1,0 +1,14 @@
+Check: url contains vouchercodes text
+Check: actual title matches expected
+user clicks on categories
+user clicks on Restaurants
+Check: Restaurants page title matches expected
+user selects location, date, number of people and clicks search button
+Check: local restaurant offers are displayed - Div 1 parent element of article present
+Check: url contains vouchercodes text
+Check: actual title matches expected
+user clicks on categories
+user clicks on Restaurants
+Check: Restaurants page title matches expected
+user selects location, date, number of people and clicks search button
+Check: local restaurant offers are not displayed - Div 1 parent element of article not present
